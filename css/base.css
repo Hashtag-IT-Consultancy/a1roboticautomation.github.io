@@ -249,12 +249,12 @@ h1 {
   margin-bottom: 12px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 42px;
   margin-bottom: 6px;
 }
 h3 {
-  font-size: 24px;
+  font-size: 20px;
   line-height: 30px;
   margin-bottom: 12px;
 }
@@ -416,7 +416,7 @@ a,
 a:visited {
   text-decoration: none;
   outline: 0;
-  color: #1E90FF;
+  color: #1e90ff;
 
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -515,7 +515,7 @@ li p {
   color: #444;
 }
 .stats-tabs li a:hover {
-  color: #1E90FF;
+  color: #1e90ff;
 }
 .stats-tabs li a b {
   display: block;
@@ -531,7 +531,7 @@ dl {
 }
 dt {
   margin: 0;
-  color: #1E90FF;
+  color: #1e90ff;
 }
 dd {
   margin: 0 0 0 20px;
@@ -609,7 +609,7 @@ dd {
 }
 .pagination .current,
 .pagination .current:hover {
-  background-color: #1E90FF;
+  background-color: #1e90ff;
   color: #fff;
 }
 .pagination .inactive,
@@ -657,7 +657,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
   font: 16px/30px montserrat-bold, sans-serif;
-  background: #1E90FF;
+  background: #1e90ff;
   display: inline-block;
   text-decoration: none;
   letter-spacing: 0;

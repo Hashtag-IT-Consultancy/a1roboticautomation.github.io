@@ -223,7 +223,7 @@ ul#nav li.active a {
 
 /* FlexSlider Intro Slider Styles */
 .slides {
-  max-height: 660px;
+  max-height: 900px;
   overflow: hidden;
 }
 .slider-text {
