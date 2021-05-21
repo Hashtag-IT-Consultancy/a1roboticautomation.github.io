@@ -217,8 +217,9 @@ ul#nav li.active a {
 /* ================================================================== */
 
 #intro {
-  background: #000000 url(../images/intro-bg-1.jpg) no-repeat center;
+  background: #f5f5f5 url(../images/intro-bg1\ \(2\).jpeg) no-repeat center;
   overflow: hidden;
+  height: 600px;
 }
 
 /* FlexSlider Intro Slider Styles */
@@ -246,7 +247,7 @@ ul#nav li.active a {
 
 .slider-text h3 {
   font: 36px/78px montserrat-regular, Sans-serif;
-  color: #fff;
+  color: #1e90ff;
   text-shadow: 0px 1px 5px rgba(50, 50, 50, 0.5);
   padding: 0;
   margin: 0;
@@ -261,6 +262,13 @@ ul#nav li.active a {
   text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
   padding: 0;
   margin: 18px 10% 0;
+}
+
+.intro-logo{
+  margin-top: 100px;
+  margin-left: 100px;
+  height: 150px;
+  width: 200px;
 }
 
 /* Direction Navigation
@@ -319,7 +327,7 @@ ul#nav li.active a {
 /* ================================================================== */
 
 #services {
-  background: #1b1e21 url(../images/patterns/servicesbg.png);
+  background: #f5f5f5 url(../images/patterns/grey.png);
   padding-top: 156px;
   padding-bottom: 120px;
   color: #4e565f;
@@ -345,7 +353,7 @@ ul#nav li.active a {
 }
 #services .section-head p.desc,
 #services .section-head .intro {
-  color: #57606b;
+  color: #000;
 }
 
 .services-wrapper {
@@ -359,7 +367,7 @@ ul#nav li.active a {
   font: 16px/24px montserrat-bold, sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: #c4c4c4;
+  color: #1e90ff;
   margin-bottom: 18px;
 }
 .services-wrapper p {
@@ -637,13 +645,13 @@ ul#nav li.active a {
   color: #999999;
 }
 #about .section-head .intro {
-  color: #a3a3a3;
+  color: #000;
 }
 #about h3 {
   font: 24px/30px montserrat-regular, sans-serif;
   margin-top: 24px;
   margin-bottom: 24px;
-  color: #6e6e6e;
+  color: #1e90ff;
 }
 
 #about .process-wrap .col {

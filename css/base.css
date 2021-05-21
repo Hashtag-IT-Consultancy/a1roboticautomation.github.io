@@ -215,7 +215,7 @@ table {
 }
 
 body {
-  background: #151719 /*url(../images/bg.png)*/;
+  background: #f5f5f5 url(../images/patterns/grey.png);
   font: 15px/30px opensans-regular, sans-serif;
   color: #838c95;
   -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
@@ -232,7 +232,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #313131;
+  color: #000;
   font-family: montserrat-regular, sans-serif;
 }
 h1 a,
@@ -252,6 +252,7 @@ h2 {
   font-size: 25px;
   line-height: 42px;
   margin-bottom: 6px;
+  color: #000;
 }
 h3 {
   font-size: 20px;
@@ -334,7 +335,7 @@ blockquote cite:before {
 }
 blockquote cite a,
 blockquote cite a:visited {
-  color: #8b9798;
+  color: #000;
   border: none;
 }
 
@@ -383,7 +384,7 @@ abbr {
   font-variant: small-caps;
   text-transform: lowercase;
   letter-spacing: 0.5px;
-  color: gray;
+  color: #000;
 }
 abbr:hover {
   cursor: help;
@@ -416,7 +417,7 @@ a,
 a:visited {
   text-decoration: none;
   outline: 0;
-  color: #1e90ff;
+  color: #000;
 
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
@@ -426,7 +427,7 @@ a:visited {
 
 a:hover,
 a:focus {
-  color: #333;
+  color: #000;
 }
 p a,
 p a:visited {
@@ -476,7 +477,7 @@ ol ul li {
 li {
   line-height: 18px;
   margin-bottom: 12px;
-  color: #708090;
+  color: #000;
 }
 ul.large li {
 }
@@ -741,7 +742,7 @@ select {
   max-width: 100%;
   font-size: 15px;
   line-height: 24px;
-  color: #738182;
+  color: #000;
   background: #cfd4d8;
 }
 
@@ -1076,4 +1077,26 @@ col.collapsed {
 .pull-right {
   float: right;
 }
+
+.texth3{
+  color: #000;
+  height: 100px;
+  width: 800px;
+  float: right;
+  margin-top: 200px ;
+  margin-right: 10px;
+  font-size: 57px;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+}
+
+.divh3{
+  background : url(../images/name-intro.png) no-repeat;
+  height: 150px;
+  width: 900px;
+  float: right;
+  margin-top: 180px ;
+}
+
 
