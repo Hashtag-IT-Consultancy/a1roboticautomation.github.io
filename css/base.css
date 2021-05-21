@@ -476,6 +476,7 @@ ol ul li {
 li {
   line-height: 18px;
   margin-bottom: 12px;
+  color: #708090;
 }
 ul.large li {
 }
@@ -1075,3 +1076,4 @@ col.collapsed {
 .pull-right {
   float: right;
 }
+
