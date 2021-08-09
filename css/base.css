@@ -1092,11 +1092,20 @@ col.collapsed {
 }
 
 .divh3{
-  background : url(../images/name-intro.png) no-repeat;
+  /* background : url(../images/name-intro.png) no-repeat; */
   height: 150px;
   width: 900px;
   float: right;
   margin-top: 180px ;
 }
 
-
+.responsive {
+  width: 70%;
+  height: auto;
+}
+@media screen and (max-width: 600px) {
+  .responsive {
+    /* yahan badal class props */
+    width: 100%;
+  }
+}
